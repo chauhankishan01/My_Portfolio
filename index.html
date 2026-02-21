@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishan Chauhan | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Portfo<span>lio</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#youtube">YouTube</a></li>
+                    <li><a href="#hire">Hire Me</a></li>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <p class="intro">Hello, I'm</p>
+                        <h1>Kishan Chauhan</h1>
+                        <h2>Web Developer & Gamer</h2>
+                        <p class="description">Crafting beautiful and functional web experiences with a passion for clean code and engaging user interfaces. Let's build something amazing together!</p>
+                        <a href="#hire" class="btn primary-btn">Hire Me <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="hero-image">
+                        <img src="mee.png" alt="Kishan Chauhan">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <div class="about-content">
+                    <p>I am <strong>Kishan Chauhan</strong>, a dedicated web developer with a keen eye for detail and a commitment to creating responsive, high-performance websites. My expertise spans across modern HTML, CSS, and JavaScript, allowing me to build robust and visually appealing digital solutions.</p>
+                    <p>When I'm not coding, you can find me diving into the latest games, sharing my experiences, and building a community on my YouTube channel.</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML5</h3>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <h3>CSS3</h3>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Responsive Design</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">My <span>Projects</span></h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <i class="fa-solid fa-music"></i>
+                        <h3>Interactive Music</h3>
+                        <p>A fully functional web-based music player with a clean UI.</p>
+                        <a href="https://chauhankishan01.github.io/Music_Play/" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <i class="fas fa-user-lock"></i>
+                        <h3>Beautiful Login Page</h3>
+                        <p>Aesthetically pleasing and secure login interfaces.</p>
+                        <a href="https://chauhankishan01.github.io/login/" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <h3>Web Gaming</h3>
+                        <p>Modern and responsive high graphics game.</p>
+                        <a href="https://chauhankishan01.github.io/Gamez/" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <i class="fas fa-weight-scale"></i>
+                        <h3>BMI Calculator</h3>
+                        <p>A user-friendly tool to calculate Body Mass Index with health tips.</p>
+                        <a href="https://chauhankishan01.github.io/BMI/" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="youtube" class="youtube-section">
+            <div class="container">
+                <h2 class="section-title">My <span>YouTube</span> Channel</h2>
+                <div class="youtube-content">
+                    <p>Join me on my gaming adventures and tech discussions. Subscribe for new videos!</p>
+                    <a href="https://www.youtube.com/channel/UC-WC1ZcXYubG_oBOvDwvNWw" target="_blank" class="btn youtube-btn">
+                        <i class="fab fa-youtube"></i> Visit My Channel
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="hire" class="hire-section">
+            <div class="container">
+                <h2 class="section-title"><span>Hire</span> Me</h2>
+                <p class="hire-intro">Let's collaborate on your next big project! Fill out the form below and I'll get back to you shortly.</p>
+                <form id="hireForm" class="hire-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" placeholder="Kishan Chauhan" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" placeholder="kishan.c@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 788XXXXX65">
+                    </div>
+                    <div class="form-group">
+                        <label for="project-details">Project Details</label>
+                        <textarea id="project-details" name="project-details" rows="6" placeholder="Describe your project, requirements, and timeline... OR DM me on Instagram: chauhankishan01 also link given in footer." required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Request <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Portfo<span>lio</span></div>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/chauhankishan01/" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/kishanchauhan01" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.threads.com/@chauhankishan01?hl=en" target="_blank" aria-label="Threads"><i class="fa-brands fa-threads"></i></a>
+                    <a href="https://www.youtube.com/channel/UC-WC1ZcXYubG_oBOvDwvNWw" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Kishan Chauhan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
