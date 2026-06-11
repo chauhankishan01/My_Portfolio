@@ -276,6 +276,7 @@ p {
     max-width: 400px;
     height: auto;
     border-radius: 50%;
+    border: 1px solid black;
     object-fit: cover;
     display: block;
     box-shadow: 0 10px 30px rgba(0, 123, 255, 0.2);
@@ -283,7 +284,6 @@ p {
     z-index: 1;
     background-color: #4d8dd1;
     margin: auto;
-    border: 1px solid black;
 }
 
 
