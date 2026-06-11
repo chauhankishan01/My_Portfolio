@@ -283,6 +283,7 @@ p {
     z-index: 1;
     background-color: #4d8dd1;
     margin: auto;
+    border: 1px solid black;
 }
 
 
